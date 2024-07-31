@@ -1,0 +1,98 @@
+.navbar-container{
+  position: relative;
+}
+.navbar {
+  background-color: orange;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-search {
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+  outline: 1px orange;
+  transform: translateX(-50px);
+}
+
+.navbar-cart {
+  position: relative;
+  cursor: pointer;
+  transform: translateX(-30px);
+}
+
+.navbar-cart .cart-icon {
+  font-size: 2rem;
+}
+
+.navbar-cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+.cart-dropdown {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 1rem;
+}
+
+.cart-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-dropdown li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cart-item-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.cart-dropdown p {
+  margin: 0;
+}
+.input-feild{
+  display: flex;
+  align-items: center;
+}
+.search-icon{
+  font-size: 1.6rem;
+  background: #fff;
+  color: orange;
+  border-radius: 50%;
+  padding: 2px;
+}

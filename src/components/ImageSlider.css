@@ -1,0 +1,37 @@
+.imageSliderContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.imageSlider{
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.slider img{
+  height: 200px;
+  width: 500px;
+  object-fit: 1%;
+  border-radius: 10px;
+}
+.slider .previous, .next{
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  color: white;
+  z-index: 9;
+  :hover{
+      cursor: pointer;
+      color: #ffffffd0;
+  }
+}
+.slider .next{
+  right: 35px;
+}
+.slider .previous{
+  left: 35px;
+}
